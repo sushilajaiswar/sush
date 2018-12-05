@@ -1,0 +1,204 @@
+Microsoft Windows [Version 10.0.16299.665]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\sushila.jaiswar>npm -v
+6.4.1
+
+C:\Users\sushila.jaiswar>npm install -g@angular/core
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\sushila.jaiswar\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\sushila.jaiswar\package.json'
+npm WARN sushila.jaiswar No description
+npm WARN sushila.jaiswar No repository field.
+npm WARN sushila.jaiswar No README data
+npm WARN sushila.jaiswar No license field.
+
+up to date in 7.538s
+found 0 vulnerabilities
+
+
+C:\Users\sushila.jaiswar>ng -v
+'ng' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\sushila.jaiswar>npm install -g @angular/cli
+C:\Users\sushila.jaiswar\AppData\Roaming\npm\ng -> C:\Users\sushila.jaiswar\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\@angular\cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/cli@7.1.1
+added 292 packages from 177 contributors in 89.441s
+
+C:\Users\sushila.jaiswar>ng -v
+Available Commands:
+  add Adds support for an external library to your project.
+  build (b) Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+  config Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  doc (d) Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.
+  e2e (e) Builds and serves an Angular app, then runs end-to-end tests using Protractor.
+  generate (g) Generates and/or modifies files based on a schematic.
+  help Lists available commands and their short descriptions.
+  lint (l) Runs linting tools on Angular app code in a given project folder.
+  new (n) Creates a new workspace and an initial Angular app.
+  run Runs an Architect target with an optional custom builder configuration defined in your project.
+  serve (s) Builds and serves your app, rebuilding on file changes.
+  test (t) Runs unit tests in a project.
+  update Updates your application and its dependencies. See https://update.angular.io/
+  version (v) Outputs Angular CLI version.
+  xi18n Extracts i18n messages from source code.
+
+For more detailed help run "ng [command name] --help"
+
+C:\Users\sushila.jaiswar>ng -v
+Available Commands:
+  add Adds support for an external library to your project.
+  build (b) Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+  config Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  doc (d) Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.
+  e2e (e) Builds and serves an Angular app, then runs end-to-end tests using Protractor.
+  generate (g) Generates and/or modifies files based on a schematic.
+  help Lists available commands and their short descriptions.
+  lint (l) Runs linting tools on Angular app code in a given project folder.
+  new (n) Creates a new workspace and an initial Angular app.
+  run Runs an Architect target with an optional custom builder configuration defined in your project.
+  serve (s) Builds and serves your app, rebuilding on file changes.
+  test (t) Runs unit tests in a project.
+  update Updates your application and its dependencies. See https://update.angular.io/
+  version (v) Outputs Angular CLI version.
+  xi18n Extracts i18n messages from source code.
+
+For more detailed help run "ng [command name] --help"
+
+C:\Users\sushila.jaiswar>ng --version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 7.1.1
+Node: 10.14.1
+OS: win32 x64
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.11.1
+@angular-devkit/core         7.1.1
+@angular-devkit/schematics   7.1.1
+@schematics/angular          7.1.1
+@schematics/update           0.11.1
+rxjs                         6.3.3
+typescript                   3.1.6
+
+
+C:\Users\sushila.jaiswar>D:\angular
+'D:\angular' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\sushila.jaiswar>cd D:\angular
+
+C:\Users\sushila.jaiswar>D:/
+'D:/' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\sushila.jaiswar>D:
+
+D:\angular>ng new angular-demo1
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE angular-demo1/angular.json (3831 bytes)
+CREATE angular-demo1/package.json (1312 bytes)
+CREATE angular-demo1/README.md (1029 bytes)
+CREATE angular-demo1/tsconfig.json (435 bytes)
+CREATE angular-demo1/tslint.json (2824 bytes)
+CREATE angular-demo1/.editorconfig (246 bytes)
+CREATE angular-demo1/.gitignore (576 bytes)
+CREATE angular-demo1/src/favicon.ico (5430 bytes)
+CREATE angular-demo1/src/index.html (299 bytes)
+CREATE angular-demo1/src/main.ts (372 bytes)
+CREATE angular-demo1/src/polyfills.ts (3234 bytes)
+CREATE angular-demo1/src/test.ts (642 bytes)
+CREATE angular-demo1/src/styles.css (80 bytes)
+CREATE angular-demo1/src/browserslist (388 bytes)
+CREATE angular-demo1/src/karma.conf.js (980 bytes)
+CREATE angular-demo1/src/tsconfig.app.json (166 bytes)
+CREATE angular-demo1/src/tsconfig.spec.json (256 bytes)
+CREATE angular-demo1/src/tslint.json (314 bytes)
+CREATE angular-demo1/src/assets/.gitkeep (0 bytes)
+CREATE angular-demo1/src/environments/environment.prod.ts (51 bytes)
+CREATE angular-demo1/src/environments/environment.ts (662 bytes)
+CREATE angular-demo1/src/app/app-routing.module.ts (245 bytes)
+CREATE angular-demo1/src/app/app.module.ts (393 bytes)
+CREATE angular-demo1/src/app/app.component.html (1152 bytes)
+CREATE angular-demo1/src/app/app.component.spec.ts (1116 bytes)
+CREATE angular-demo1/src/app/app.component.ts (217 bytes)
+CREATE angular-demo1/src/app/app.component.css (0 bytes)
+CREATE angular-demo1/e2e/protractor.conf.js (752 bytes)
+CREATE angular-demo1/e2e/tsconfig.e2e.json (213 bytes)
+CREATE angular-demo1/e2e/src/app.e2e-spec.ts (305 bytes)
+CREATE angular-demo1/e2e/src/app.po.ts (204 bytes)
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+
+> node-sass@4.10.0 install D:\angular\angular-demo1\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.10.0/win32-x64-64_binding.node
+Download complete  ] - :
+Binary saved to D:\angular\angular-demo1\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Caching binary to C:\Users\sushila.jaiswar\AppData\Roaming\npm-cache\node-sass\4.10.0\win32-x64-64_binding.node
+
+> node-sass@4.10.0 postinstall D:\angular\angular-demo1\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at D:\angular\angular-demo1\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1125 packages from 1176 contributors and audited 40177 packages in 255.433s
+found 0 vulnerabilities
+
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\angular>cd angular*
+
+D:\angular\angular-demo1>ng serve -o
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2018-12-04T11:36:45.718Z
+Hash: 5c097f334279f788c718
+Time: 12989ms
+chunk {main} main.js, main.js.map (main) 11.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 223 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.67 MB [initial] [rendered]
+i ｢wdm｣: Compiled successfully.
+^CTerminate batch job (Y/N)?
+^CThe system cannot open the device or file specified.
+
+D:\angular\angular-demo1>^O
+'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\angular\angular-demo1>
+D:\angular\angular-demo1>ng serve -o
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2018-12-04T11:55:50.868Z
+Hash: 5c097f334279f788c718
+Time: 12562ms
+chunk {main} main.js, main.js.map (main) 11.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 223 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.67 MB [initial] [rendered]
+i ｢wdm｣: Compiled successfully.
+^CTerminate batch job (Y/N)? ^C
